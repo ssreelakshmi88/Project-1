@@ -1,4 +1,4 @@
-![p1-readme](https://user-images.githubusercontent.com/97182442/157473539-8d4e8b36-6d66-45ab-b1e7-6065cb1d6085.png)
+
 ## Natare Club 
 Natare Club, is a web page for people who are interested in swimming and related activities. As the name suggests Natare (in latin "to swim"), offers a wide range of activities for kids and adults. The website is user friendly. Visitors can navigate to find information concerning the activities, tariffs, opening hours and sign up page. 
 •	Features
