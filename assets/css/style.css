@@ -86,7 +86,7 @@ color: #252525
     padding-top: 40px;
     padding-left: 15px;
 
-    background-color: rgba(241, 107, 170, 0.774);
+    background-color: rgba(236, 118, 128, 0.918);
    bottom: 30px;
     left: 150px;
 
@@ -128,9 +128,28 @@ color: #252525
     line-break: normal;
     text-transform: none;
     display: inline-block;
-   
-    
-} 
+   } 
+   footer{
+    height: 150px;
+   }
+
+
+.social-networks{
+    text-align: center;
+    background: rgba(192, 91, 100, 0.425);
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 
  
