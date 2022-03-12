@@ -101,9 +101,23 @@ color: #252525
     padding-top: 30px;
     color: whitesmoke;
     text-decoration: underline;
-    
-    
     }
+.single-maintain-healthy-weight {
+        list-style: "❤️ ";
+        list-style-position: outside!important;
+}
+.single-cardiovascular-fitness {
+    list-style: "🚴 ";
+    list-style-position: outside!important;
+}
+.single-alleviates-stress {
+    list-style: "😇 ";
+    list-style-position: outside!important;
+}
+.single-build-muscle {
+    list-style: "💪 ";
+    list-style-position: outside!important;
+}
 
 #list {
     text-align: left;
