@@ -136,7 +136,7 @@ color: #252525
 
 .social-networks{
     text-align: center;
-    background: rgba(192, 91, 100, 0.425);
+    background: rgba(38, 55, 150, 0.425);
 
 }
 
@@ -145,16 +145,8 @@ color: #252525
 }
 
 .social-networks i{
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    padding: 0%;
+    color: #021411;
 }
-
-
- 
-
-
-
-
-
