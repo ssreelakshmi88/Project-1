@@ -16,6 +16,8 @@ color: #252525
 }
 #logo {
     float: left;
+    width: 0%;
+    height: 0%;
     font-size: 280%;
     margin-left: 30px;}
 #menu {
