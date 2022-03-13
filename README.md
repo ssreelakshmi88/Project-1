@@ -68,9 +68,11 @@ o	Photoshop was used to create the logo, resizing images and editing photos for 
 2.	All the upcoming events are shared there.
 ****
 **Further Testing**
+
 The website was tested on Google Chrome.
 ****
 **Deployment**
+
 **GitHub Pages**
 The project was deployed to GitHub Pages using the following steps...
 
@@ -81,12 +83,14 @@ The project was deployed to GitHub Pages using the following steps...
 5. Under "Source", click the dropdown called "None" and select "Master Branch".
 6. The page will automatically refresh.
 7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
 **Forking the GitHub Repository**
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
+
 **Making a Local Clone**
 1. Log in to GitHub and locate the GitHub Repository
 2. Under the repository name, click "Clone or download".
@@ -95,5 +99,6 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 3.
 7. Press Enter. Your local clone will be created.
+
 **Media**
 Images were taken from pexels.com
