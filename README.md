@@ -3,21 +3,24 @@ Natare Club, is a web page for people who are interested in swimming and related
 
 ![Screenshot_Home page](https://user-images.githubusercontent.com/97182442/158078689-41b3f3c1-84c0-4aaf-94fa-31a5ed613ff6.jpg)
 
-
-
 **User Goals**
-	As first time users, they can easily understand the main purpose of the website and learn more about the different activities that we provide.
-	Detailed description of all the swimming activities are also illustrated in the website with pictures.
-	The user has the ability to sign in and register their details with us.
-	The website provides the best way to get in contact with the club with any questions they have.
-	User can find all the social media links to connect with us and follow us.
- **Design**
-•	        Colour Scheme
-o	The main colours used in the website are shades of blue and white.
-•	Typography
-o	The Ostwald font is the main font used throughout the website with Sans Serif as the fallback font. Ostwald font is appropriate for designing this web page.
-•	Imagery
-  A background image has been placed in the webpage to highlight the main activity of the club, swimming.
+**First Time Visitor Goals:**
+- As first time users, they can easily understand the main purpose of the website and learn more about the different activities that we provide.
+-Detailed description of all the swimming activities are also illustrated in the website with pictures. A first time user can easily navigate throughout the site to find the content.
+- As a first time users, they can easily locate the social media links and can check the reviews of other users.
+**Returning Visitor Goals:**
+-The website provides the best way to get in contact with the club with any questions they have.
+- A returning visitor can sign in and register their details.
+**Frequent User Goals:**
+- As frequent users, they can always check if there are any newly added events or activities.
+-The frequent user can check on into new blog posts.
+
+**Design** 
+**Colour Scheme** o The main colours used in the website are shades of blue and white.
+
+• **Typography** o The Ostwald font is the main font used throughout the website with Sans Serif as the fallback font. Ostwald font is appropriate for designing this web page. 
+
+**Imagery** A background image has been placed in the webpage to highlight the main activity of the club, swimming
 **Wireframes**
 
 ![Wireframe 001](https://user-images.githubusercontent.com/97182442/158078719-4c9847b2-8f59-44a6-83c2-67737b168434.jpg)
@@ -47,6 +50,7 @@ o	GitHub is used to store the projects code after being pushed from Git.
 o	Photoshop was used to create the logo, resizing images and editing photos for the website.
 
   **Testing User Stories from User Experience (UX) Section**
+  **First Visitor Goals
 - As first time users, they can easily understand the main purpose of the website and learn more about the different activities that we provide.
 1.	They would be able to easily navigate throughout the site to find the activities of their interests and all the relevant details.
 2.	The main concept about the site is articulated with the main image.
@@ -56,17 +60,22 @@ o	Photoshop was used to create the logo, resizing images and editing photos for 
 2.	Pricing details of different activities are elaborated.
 3.	The club organizes different activities for all age groups.
 4.	Images are incorporated for making the visitors to have a vivid understanding.
+**Returning Visitor Goals**
 - The user has the ability to sign in and register their details with us.
 1.	The sign up section has a form to collect details from clients .
 2.	The page collects the clients name, email address, mobile number. 
 3.	After registering the user can join the club. 
 - The website provides the best way to get in contact with the club with any questions they have.
-1.	The contact page encourages the user to get in contact with the club.
-2.	The user can ask any questions or send feedback to the club.
+9.	The contact page encourages the user to get in contact with the club.
+10.	The user can ask any questions or send feedback to the club.
 - User can find all the social media links to connect with us and follow us.
-1.	The footer contains social media direct links .
-2.	All the upcoming events are shared there.
+11.	The footer contains social media direct links .
+12.	All the upcoming events are shared there.
 ****
+**Frequent Visior Goals**
+As frequent users, they can check for any newly added events or activities.
+1. All events will be updated in social media.
+2. Social media links are available in the footer.
 **Further Testing**
 
 The website was tested on Google Chrome.
@@ -100,5 +109,15 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type git clone, and then paste the URL you copied in Step 3.
 7. Press Enter. Your local clone will be created.
 
+**Content**
+All content was written by the developer.
+
+Psychological properties of colours text in the README.md was found here
+
 **Media**
 Images were taken from pexels.com
+
+**Acknowledgements**
+My Mentor for continuous helpful feedback.
+
+Tutor support at Code Institute for their support.
