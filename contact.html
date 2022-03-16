@@ -25,53 +25,67 @@
 
 <link href="assets/css/contact-form.css" rel="stylesheet">
 
-<div class="fcf-body">
+<div class="contact-body">
 
-    <div id="fcf-form">
-    <h3 class="fcf-h3">Contact us</h3>
+    <div id="contact-form">
+    <h3 class="contact-h3">Contact us</h3>
 
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="">
+    <form id="contact-form-id" class="contact-form-class" method="post" action="">
         
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+        <div class="contact-form-group">
+            <label for="Name" class="contact-label">Your name</label>
+            <div class="contact-input-group">
+                <input type="text" id="Name" name="Name" class="contact-form-control" required>
             </div>
         </div>
 
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+        <div class="contact-form-group">
+            <label for="Email" class="contact-label">Your email address</label>
+            <div class="contact-input-group">
+                <input type="email" id="Email" name="Email" class="contact-form-control" required>
             </div>
         </div>
 
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+        <div class="contact-form-group">
+            <label for="Message" class="contact-label">Your message</label>
+            <div class="contact-input-group">
+                <textarea id="Message" name="Message" class="contact-form-control" rows="6" maxlength="3000" required></textarea>
             </div>
         </div>
 
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        <div class="contact-form-group">
+            <button type="submit" id="contact-button" class="contact-btn contact-btn-primary contact-btn-lg contact-btn-block">Send Message</button>
         </div>
     </form>
     </div>
 
 </div>
 
-
-<section>
-    <h3>ADDRESS</h3>
-    <p>Pasteurweg 14</p><br>
-    <p>1234 AB Netherlands</p>
-</section>
-<section>
-    <h3><b>Telephone no:</b> 012345678</h3>
-    <h4><b>Fax:</b> 03214789</h4>
-    <h4><b>Email:</b>info@natare.com</h4>
-
-</section>
-</body>
-</html>
+<aside id="add">
+    <div>
+        <h3>Address:</h3>
+        <p>Pasteurweg,<br>1234 AB Eithoorn,<br>Netherlands</p>
+    </div>
+    <br>
+    <div>
+    <span class="bold">Phone: </span>
+    <span>012 345 678 910</span>
+    </div>
+    <div>
+    <span class="bold">Fax: </span>
+    <span>045 678 910</span>
+    </div>
+    <div>
+    <span class="bold">Email: </span>
+    <span>info@natare.com</span>
+    </div>
+</aside>
+<footer>
+    <ul class="social-networks">
+        <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+</footer>
