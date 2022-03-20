@@ -56,27 +56,30 @@ color: #252525
   position: relative;
 }
 
-#information-image {height:600px;
+#information-image {
+  height:600px;
   width: 100%;
   background: url('../images/info image1.jpg') no-repeat center center;
 
 }
 
 h2 {
-  margin-left: 70px;
+  margin-left: 100px;
   padding-top: 10px;
   color: blue;
   font-size: xx-large;
 }
 p {
- margin-left: 50px;
+ margin-left: 100px;
  font-size: larger;
 }
-
+#text {
+  line-height: 1.5;
+}
 table {
   border-spacing: 100px;
   margin-bottom: 100px;
-  margin-left: 70px;
+  margin-left: 50px;
   width: 70%;
   text-align: center;
 }
@@ -104,23 +107,27 @@ th {
 
 footer{
     height: 150px;
-    padding-top: 800px;
-   }
+    padding-top: 200px;
+    
+}
+    
 
 
 .social-networks{
     text-align: center;
-    background: rgba(38, 55, 150, 0.425);
-
+    background-color: rgb(101, 172, 212);
+    background: cover;
 }
 
 .social-networks li{
     display: inline;
+    margin-right: 10px;
+    
 }
 
 .social-networks i{
     font-size: 200%;
-    margin: 1%;
+    margin: 5%;
     padding: 0%;
     color: #021411;
 }

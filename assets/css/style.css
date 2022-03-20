@@ -140,8 +140,7 @@ color: #252525
 
 .social-networks{
     text-align: center;
-    background: rgba(38, 55, 150, 0.425);
-
+    background-color: rgb(101, 172, 212);
 }
 
 .social-networks li{
@@ -150,7 +149,7 @@ color: #252525
 
 .social-networks i{
     font-size: 200%;
-    margin: 1%;
+    margin: 5%;
     padding: 0%;
     color: #021411;
 }
