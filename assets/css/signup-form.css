@@ -10,6 +10,7 @@ background-size: cover;
 background-position: center;
 }
 
+
 h1, h2 {
 font-family: Oswald, sans-serif;
 text-transform: uppercase;
@@ -51,12 +52,93 @@ header {
 {
     border-bottom: 1px solid black;
 }
-.sign-up-form
+#sign-up-form
 {
     width: 300px;
+    height: 500px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
     background: #fff;
     padding: 20px;
     margin: 8% auto 0;
+    margin-top: 20px;
     text-align: center;
+    border-radius: 2px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+.form-section {
+    width: 300px;
+    margin-left: 10px;
+    
+}
+form label {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    font-size: medium;
+}
+form input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border: 1px solid black;
+}
+   
+.text-input {
+    display: block;
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #021411;
+    border-radius: 2px;    
+    }
+  legend {
+      font-size: large;
+      padding-top: 5px;
+  }
+
+  .block-label {
+        display: block;
+    }
+    .join-button {
+        margin-top: 20px;
+border-radius: 1px;
+padding-top: 15px;
+padding-right: 32px;
+padding-bottom: 15px;
+padding-left: 32px;
+text-align: center;
+font-size: 100%;
+background-color: #786bf1;
+color: #fafafa;
+display: block;
+    }
+footer{
+    height: 10px;
+   }
+
+
+.social-networks{
+    text-align: center;
+    background-color: rgb(101, 172, 212);
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 200%;
+    margin: 5%;
+    padding: 0%;
+    color: #021411;
 }
