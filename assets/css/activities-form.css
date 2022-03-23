@@ -50,7 +50,7 @@ color: #252525
 
 div.gallery {
     border: 1px solid #ccc;
-    background-color: antiquewhite;
+   
 }
   
   div.gallery:hover {
@@ -82,13 +82,20 @@ div.gallery {
   
   .responsive {
     padding: 0 6px;
-    padding-top: 50px;
+    padding-top: 20px;
     float: left;
     width: 24.99999%;
+
   }
   span {text-decoration: underline;
-          }
+  }
+
+  span:hover
+  {
+    color:green;
+  }
   
+
   @media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
@@ -111,12 +118,14 @@ div.gallery {
 
 .social-networks{
     text-align: center;
-    background-color: rgb(101, 172, 212);
+    background-color: white;
 
 }
 
-.social-networks li{
+.social-networks li
+{
     display: inline;
+    
 }
 
 .social-networks i{

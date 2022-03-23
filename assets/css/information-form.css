@@ -111,21 +111,14 @@ footer{
     padding-top: 200px;
     margin-left: 50px;
     margin-right: 100px;
+    }
     
-    
-    
-}
-    
-
-
 .social-networks{
     text-align: center;
-    background-color: rgb(101, 172, 212);
-    background: cover;
+    background-color: white;
     margin-left: 50px;
     margin-right: 150px;
-
-}
+  }
 
 .social-networks li{
     display: inline;

@@ -57,7 +57,7 @@ header {
     width: 300px;
     height: 500px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-    background: #fff;
+    background: white;
     padding: 20px;
     margin: 8% auto 0;
     margin-top: 20px;
@@ -92,7 +92,7 @@ form input {
    
 .text-input {
     display: block;
-    width: 100%;
+    width: 90%;
     height: 25px;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -129,7 +129,7 @@ footer{
 
 .social-networks{
     text-align: center;
-    background-color: rgb(101, 172, 212);
+    background-color: white;
 }
 
 .social-networks li{

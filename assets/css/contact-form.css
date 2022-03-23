@@ -213,12 +213,13 @@ color: #252525
 footer{
   height: 150px;
   padding-top: 200px;
+  background-color: white;
  }
 
 
 .social-networks{
   text-align: center;
-  background-color: rgb(101, 172, 212);
+  background-color: white;
 }
 
 .social-networks li{
