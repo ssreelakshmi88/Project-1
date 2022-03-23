@@ -91,7 +91,7 @@ border-collapse: collapse;
 
 }
 th {
-  background-color: grey;
+  background-color: rgb(190, 55, 55);
 }
 #days {
   background-color: rgb(30, 137, 199);
