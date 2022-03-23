@@ -21,7 +21,9 @@ color: #252525
     width: 0%;
     height: 0%;
     font-size: 280%;
-    margin-left: 30px;}
+    margin-left: 30px;
+    padding-top: 3px;
+  }
 #menu {
     font-size: 100%;
     letter-spacing: 4px;
