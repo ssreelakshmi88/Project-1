@@ -108,13 +108,28 @@ color: #252525
     color: whitesmoke;
     text-decoration: underline;
     }
-
+.single-maintain-healthy-weight {
+        
+    list-style-position: outside!important;
+}
+.single-cardiovascular-fitness {
+list-style: "❤️";
+list-style-position: outside!important;
+}
+.single-alleviates-stress {
+list-style: "😇";
+list-style-position: outside!important;
+}
+.single-build-muscle {
+list-style: "💪 ";
+list-style-position: outside!important;
+}
 
 #list {
     text-align: left;
     padding-top: 50px;
     margin-left: 10px;
-    list-style-type: none;
+    list-style-type: circle;
     line-height: 1.6;
     line-break: normal;
     text-transform: none;
@@ -141,3 +156,4 @@ color: #252525
     padding: 0%;
     color: #021411;
 }
+
