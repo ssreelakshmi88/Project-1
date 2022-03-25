@@ -106,6 +106,12 @@ th {
 
 }
 
+.data-col{
+
+  text-align: left;
+  text-indent: 3em;
+}
+
 #price
 {
   width: 70%;
