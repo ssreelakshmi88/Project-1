@@ -85,17 +85,13 @@ color: #252525
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 2px;
-
-    width: 350px;
+     width: 350px;
     height: 100px;
-
     padding-top: 40px;
     padding-left: 15px;
-
-    background-color: rgba(236, 118, 128, 0.918);
+   background-color: rgba(236, 118, 128, 0.918);
    bottom: 30px;
     left: 150px;
-
     position: absolute;
 }
 #what {height: 200px;
@@ -141,3 +137,59 @@ color: #252525
     padding: 0%;
     color: #021411;
 }
+
+@media screen and (max-width: 950px){
+
+#menu li {
+    
+    display: grid;
+    line-height: 25px;
+    margin: 1%;
+    padding-top: 80px;
+    
+   
+   
+}
+
+
+
+#cover-text{
+    float: left;
+    left: 0px;
+    width: 5%;
+   
+    
+}
+}
+@media screen and (max-width: 500px){
+
+#menu{
+    display: grid;
+   text-align: center;
+    margin: 1%;
+    margin-right: 0px auto;
+
+}   
+
+#menu li {
+
+    
+    padding: 7px 10px;
+    margin: 1%;
+    margin-left: 50%;
+    font-size: small;
+    clear: both;
+   }
+
+#cover-text{
+    float: left;
+    left: 0px;
+    width: 15px;
+    font-size: small;
+   padding-left: 50px;
+   display: inline;
+    
+   
+}
+}
+
