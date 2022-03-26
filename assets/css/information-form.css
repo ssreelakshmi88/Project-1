@@ -146,4 +146,38 @@ footer{
     padding: 0%;
     color: #021411;
 }
+@media screen and (max-width: 950px) {
 
+   #menu li {
+      
+      
+      line-height: 25px;
+      margin: 1%;
+      padding-top: 80px;
+  } 
+}
+
+@media screen and (max-width: 615px) {
+
+   
+  #logo {
+   float: none;
+   }
+  
+   
+   #menu {
+     padding-left: 0;
+     margin: auto;
+     text-align: center;
+   }
+  }
+
+  .social-networks i{
+    font-size: 150%;
+    margin: 2%;
+    padding: 0%;
+    text-align: center;
+   
+}
+
+  

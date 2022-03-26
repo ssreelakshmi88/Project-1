@@ -135,22 +135,54 @@ div.gallery {
     color: #021411;
     
 }
-@media only screen and (max-width: 700px) {
+
+@media screen and (max-width: 950px) {
+
+    #menu li {
+        
+        
+        line-height: 25px;
+        margin: 1%;
+        padding-top: 80px;
+    }
+  }
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
-  #menu, #logo {
 
-    clear: left;
-  }
-  }
-  
+  h2 {
 
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-    padding-right: 50px;
+    bottom: 50px;
   }
+
+  .social-networks i{
+    font-size: 150%;
+    margin: 2%;
+    padding: 0%;
+    text-align: center;
+   
 }
+
+  @media screen and (max-width: 615px) {
+
+   #logo {
+     float: none;
+     }
+    
+     
+     #menu {
+     
+       padding-left: 0;
+       margin: auto;
+       text-align: center;
+     }
+    }
+
+    .social-networks i{
+      font-size: 150%;
+      margin: 2%;
+      padding: 0%;
+      text-align: center;
+     
+  }
