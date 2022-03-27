@@ -1,73 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="swimming, sport, kids, aqua jogging, pool activities, float fit, netherlands">
-       <title>Sign Up Form</title>
-       <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/signup-form.css">
 </head>
+
 <body>
     <header>
-        <div id="logo">
-        <a href="index.html"><img src="assets/images/LOGO.jpg" alt="swimming logo">
-        </a>
+        <div class="logo">
+            <a href="index.html"><img src="assets/images/LOGO.webp" alt="swimming logo">
+            </a>
         </div>
-         <nav>
-       
-         <ul id="menu">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="signup.html">Sign up</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="information.html">Information</a></li>
-            <li><a href="index.html" class="house">Home</a></li>
-         </ul>
-         </nav>   
-        </header>
+        <nav>
 
-<link href="assets/css/signup-form.css" rel="stylesheet">
-<div id="sign-up-form">
-    <h1>Sign Up Now</h1>
-    <form method="POST" action="https://formdump.codeinstitute.net/" class="form-section">
-        <label for="fname">First Name</label>
-        <input id="fname" name="first_name" type="text" required class="text-input" placeholder="Your name">
-        <label for="lname">Last Name</label>
-        <input id="lname" name="last_name" type="text" required class="text-input" placeholder="Your last name">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email_address" required class="text-input" placeholder="Your email">
-        <fieldset>
-			<legend>Activities</legend>
-			<div>
-				<label for="fav-activity" class="block-label">Choose the activity?</label>
-				<input id="fav-activity" list="activities" name="fav-activity" required>
-				<datalist id="activities">
-					<option value="Swimming lesson">
-					<option value="Float fit">
-					<option value="Recreational swimming">
-					<option value="Stroke swimming">
-					<option value="Aqua BBB">
-                    <option value="Lap swimming">
-                    <option value="Aqua jogging">
-                   <option value="Baby swimming">
-				</datalist>
-            </div>
-        </fieldset>
-                 
+            <ul class="menu">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="index.html" class="house">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="sign-up-form">
+        <h1>Sign Up Now</h1>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="form-section">
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required class="text-input" placeholder="Your name">
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required class="text-input" placeholder="Your last name">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required class="text-input" placeholder="Your email">
+            <fieldset>
+                <legend>Activities</legend>
+                <div>
+                    <label for="fav-activity" class="block-label">Choose the activity?</label>
+                    <input id="fav-activity" list="activities" name="fav-activity" required>
+                    <datalist id="activities">
+                        <option value="Swimming lesson">
+                        <option value="Float fit">
+                        <option value="Recreational swimming">
+                        <option value="Stroke swimming">
+                        <option value="Aqua BBB">
+                        <option value="Lap swimming">
+                        <option value="Aqua jogging">
+                        <option value="Baby swimming">
+                    </datalist>
+                </div>
+            </fieldset>
+
             <input class="join-button" type="submit" value="Submit!">
-			
-        
-     </form>
-</div>
-<br>
-<footer>
-    <ul class="social-networks">
-        <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a></li>
-        <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a></li>
-        <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
-    </ul>
-     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
-</footer>
-    
+
+
+        </form>
+    </div>
+    <br>
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i
+                        class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i
+                        class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+        <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+    </footer>
+
 </body>
+
 </html>

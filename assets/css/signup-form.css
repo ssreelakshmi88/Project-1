@@ -1,62 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
-* {
-margin:0;
-border: none;}
 body {
-font-family: Lato, sans-serif;
-font-weight: 300;
-background-image: url('../images/water.jpg');
-background-size: cover;
-background-position: center;
+    background-image: url('../images/water.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
-
-h1, h2 {
-font-family: Oswald, sans-serif;
-text-transform: uppercase;
-letter-spacing: 4px;
-color: #252525
-}
-
-#logo {
-    float: left;
-    width: 0%;
-    height: 0%;
-    font-size: 280%;
-    margin-left: 30px;
-}
-#menu {
-    font-size: 100%;
-    letter-spacing: 4px;
-}
-#menu, #logo {
-    line-height: 75px;
-    padding-top: 20px;
-    
-}
 header {
     background-color: white;
     padding-bottom: 95px;
 }
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-    text-transform: uppercase;
-}
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-#menu a:hover
-{
-    border-bottom: 1px solid black;
-}
-#sign-up-form
-{
-    width: 300px;
-    height: 500px;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+
+.sign-up-form {
+    width: 20vw;
+    height: 36vw;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
     background: white;
     padding: 20px;
     margin: 8% auto 0;
@@ -74,8 +31,9 @@ h1 {
 .form-section {
     width: 300px;
     margin-left: 10px;
-    
+
 }
+
 form label {
     display: inline-block;
     margin-top: 10px;
@@ -83,13 +41,14 @@ form label {
     font-size: 18px;
     font-size: medium;
 }
+
 form input {
     width: 100%;
     padding: 5px;
     border: none;
     border: 1px solid black;
 }
-   
+
 .text-input {
     display: block;
     width: 90%;
@@ -99,44 +58,47 @@ form input {
     border-width: 1px;
     border-style: solid;
     border-color: #021411;
-    border-radius: 2px;    
-    }
-  legend {
-      font-size: large;
-      padding-top: 5px;
-  }
+    border-radius: 2px;
+}
 
-  .block-label {
-        display: block;
-    }
-    .join-button {
-        margin-top: 20px;
-border-radius: 1px;
-padding-top: 15px;
-padding-right: 32px;
-padding-bottom: 15px;
-padding-left: 32px;
-text-align: center;
-font-size: 100%;
-background-color: #786bf1;
-color: #fafafa;
-display: block;
-    }
-footer{
+legend {
+    font-size: large;
+    padding-top: 5px;
+}
+
+.block-label {
+    display: block;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 1px;
+    padding-top: 15px;
+    padding-right: 32px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #786bf1;
+    color: #fafafa;
+    display: block;
+}
+
+footer {
     height: 10px;
-   }
+}
 
 
-.social-networks{
+.social-networks {
     text-align: center;
     background-color: white;
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 200%;
     margin: 5%;
     padding: 0%;
