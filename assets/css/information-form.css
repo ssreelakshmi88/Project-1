@@ -1,81 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
-* {
-margin:0;
-
-}
-
-body {
-font-family: Lato, sans-serif;
-font-weight: 300;
-color:black;
-}
-
-h1, h2 {
-    font-family: Oswald, sans-serif;
-text-transform: uppercase;
-letter-spacing: 4px;
-color: #252525
-}
-
-#logo {
-    float: left;
-    width: 0%;
-    height: 0%;
-    font-size: 280%;
-    margin-left: 30px;
-  padding-top: 3px;}
-#menu {
-    font-size: 100%;
-    letter-spacing: 4px;
-}
-#menu, #logo {
-    line-height: 75px;
-   border-width: 3px;
-   
-}
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-    text-transform: uppercase;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-#menu a:hover{
-    border-bottom: 1px solid black;
-    
-}
-
-#information-outer{
-  height:400px;
+.information-image {
+  height: 20vw;
   width: 100%;
-overflow: hidden;
+  background: url('../images/info-image1.webp') no-repeat center center;
+  width: 100%;
+  overflow: hidden;
   position: relative;
 }
 
-.information-image {
-  height:600px;
-  width: 100%;
-  background: url('../images/info image1.jpg') no-repeat center center;
-
-}
-
-h2 {
+.heading h2 {
   margin-left: 100px;
   padding-top: 10px;
   color: blue;
   font-size: xx-large;
 }
-p {
- margin-left: 100px;
- font-size: larger;
+
+.heading p {
+  margin-left: 100px;
+  font-size: larger;
 }
-#text {
-  line-height: 1.5;
-}
+
+
 table {
   border-spacing: 100px;
   margin-bottom: 100px;
@@ -85,99 +29,39 @@ table {
   text-align: center;
 }
 
-table, th, td {
-border: 1px solid black;
-border-collapse: collapse;
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
 
 }
+
 th {
   background-color: rgb(190, 55, 55);
 }
-.days 
-{
+
+.days {
   background-color: rgb(30, 137, 199);
   width: 20%;
-  }
+}
 
-.data-div { 
+.data-div {
   padding-top: 100px;
   text-align: center;
   margin-left: 80px;
 
 }
 
-.data-col{
+.data-col {
 
   text-align: left;
   text-indent: 3em;
 }
 
-#price
-{
+.price {
   width: 70%;
   margin-left: 80px;
 
 }
 
-
-footer{
-    height: 150px;
-    padding-top: 200px;
-    margin-left: 50px;
-    margin-right: 100px;
-    }
-    
-.social-networks{
-    text-align: center;
-    background-color: white;
-    margin-left: 50px;
-    margin-right: 150px;
-  }
-
-.social-networks li{
-    display: inline;
-    margin-right: 10px;
-    
-}
-
-.social-networks i{
-    font-size: 200%;
-    margin: 5%;
-    padding: 0%;
-    color: #021411;
-}
-@media screen and (max-width: 950px) {
-
-   #menu li {
-      
-      
-      line-height: 25px;
-      margin: 1%;
-      padding-top: 80px;
-  } 
-}
-
-@media screen and (max-width: 615px) {
-
-   
-  #logo {
-   float: none;
-   }
-  
-   
-   #menu {
-     padding-left: 0;
-     margin: auto;
-     text-align: center;
-   }
-  }
-
-  .social-networks i{
-    font-size: 150%;
-    margin: 2%;
-    padding: 0%;
-    text-align: center;
-   
-}
-
-  
