@@ -83,24 +83,3 @@ legend {
     color: #fafafa;
     display: block;
 }
-
-footer {
-    height: 10px;
-}
-
-
-.social-networks {
-    text-align: center;
-    background-color: white;
-}
-
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 200%;
-    margin: 5%;
-    padding: 0%;
-    color: #021411;
-}

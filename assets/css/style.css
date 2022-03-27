@@ -7,7 +7,7 @@
 
 body {
     font-family: Lato, sans-serif;
-    font-weight: 300;
+    font-weight: 300%;
     color: black;
     position: absolute;
     height: 100vh;
@@ -33,11 +33,12 @@ h2 {
 }
 
 .menu {
-    font-size: 100%;
+    font-size: 300%;
     letter-spacing: 4px;
+
 }
 
-.menu {
+.menu li {
     list-style-type: none;
     text-align: right;
     margin: 0;
@@ -130,10 +131,10 @@ h2 {
     background: url('../images/background.webp')center center / cover no-repeat fixed;
     margin-top: 18px;
     text-align: center;
-    text-transform: uppercase;
     padding-top: 30px;
     color: #ffffff;
     text-decoration: underline;
+
 }
 
 .list {
@@ -168,49 +169,49 @@ footer {
     color: #021411;
 }
 
-@media screen and (max-width: 950px) {
+/* Extra large devices (large laptops and desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .what {
 
-    #menu li {
-
-
-        line-height: 25px;
-        margin: 1%;
-        padding-top: 80px;
+        height: 18vw;
+        font-size: 1.5vmax;
     }
 
-    #cover-text {
-
-        top: 25px;
-        right: 0px;
+    .cover-text {
+        left: 5px;
     }
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 
-@media screen and (max-width: 615px) {
-
-
-    #logo {
+    .logo {
         float: none;
     }
 
 
-    #menu {
+    .menu li {
 
         padding-left: 0;
-        margin: auto;
-        text-align: center;
+        margin: 0.5%;
+
     }
 
-    #cover-text {
-        padding-left: 0;
-        padding-right: 70px;
-        margin: auto;
-        text-align: center;
-        font-size: small;
-        padding-top: 0px;
-        width: 28%;
-        top: 30px;
-        left: 40px;
+    .menu,
+    .logo {
+        line-height: 30px;
+    }
 
+    .cover-text {
+        left: 5px;
+        top: 10px;
+    }
+
+    .what,
+    .list {
+
+        height: 20vw;
+        font-size: 1.5vmax;
+        text-align: center;
     }
 }
