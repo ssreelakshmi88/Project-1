@@ -9,6 +9,9 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
 }
 
 h1,
@@ -19,7 +22,7 @@ h2 {
     color: #252525
 }
 
-#logo {
+.logo {
     float: left;
     width: 0%;
     height: 0%;
@@ -29,56 +32,59 @@ h2 {
 
 }
 
-#menu {
+.menu {
     font-size: 100%;
     letter-spacing: 4px;
 }
-#menu {
+
+.menu {
     list-style-type: none;
     text-align: right;
     margin: 0;
     padding-right: 10px;
 }
-#menu,
-#logo {
+
+.menu,
+.logo {
     line-height: 75px;
 }
- #menu li {
+
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
     text-transform: uppercase;
-} 
+}
 
 
 
-#menu li {
+.menu li {
     display: inline-block;
 }
 
-#menu li a {
+.menu li a {
     font-size: 2vmin;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid black;
 
 }
 
 
-#main-outer {
+.main-outer {
     height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#main-image {
+.main-image {
     height: 600px;
     width: 100%;
     background: url('../images/main-image.webp') no-repeat center center;
@@ -99,18 +105,18 @@ h2 {
 }
 
 
-#cover-text,
-#cover-text h2 {
+.cover-text,
+.cover-text h2 {
     color: #ffffff;
 }
 
-#cover-text {
+.cover-text {
     font-size: 100%;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 2px;
     width: 350px;
-    height: 100px;
+    height: 6vw;
     padding-top: 40px;
     padding-left: 15px;
     background-color: rgba(236, 118, 128, 0.918);
@@ -119,21 +125,18 @@ h2 {
     position: absolute;
 }
 
-#what {
-    height: 200px;
-    background: url('../images/background.jpg')center center / cover no-repeat fixed;
-}
-
-.text-center {
+.what {
+    height: 13vw;
+    background: url('../images/background.webp')center center / cover no-repeat fixed;
+    margin-top: 18px;
     text-align: center;
     text-transform: uppercase;
     padding-top: 30px;
-    color: whitesmoke;
+    color: #ffffff;
     text-decoration: underline;
 }
 
-
-#list {
+.list {
     text-align: left;
     padding-top: 50px;
     margin-left: 10px;
@@ -145,7 +148,7 @@ h2 {
 }
 
 footer {
-    height: 150px;
+    height: 9vw;
 }
 
 
@@ -167,35 +170,35 @@ footer {
 
 @media screen and (max-width: 950px) {
 
-#menu li {
-    
-    
-    line-height: 25px;
-    margin: 1%;
-    padding-top: 80px;
-} 
+    #menu li {
 
-#cover-text {
-    
-     top: 25px;
-    right: 0px;
-}
+
+        line-height: 25px;
+        margin: 1%;
+        padding-top: 80px;
+    }
+
+    #cover-text {
+
+        top: 25px;
+        right: 0px;
+    }
 }
 
 
 @media screen and (max-width: 615px) {
 
-   
-   #logo {
-    float: none;
+
+    #logo {
+        float: none;
     }
-   
-    
+
+
     #menu {
-    
-      padding-left: 0;
-      margin: auto;
-      text-align: center;
+
+        padding-left: 0;
+        margin: auto;
+        text-align: center;
     }
 
     #cover-text {
@@ -209,5 +212,5 @@ footer {
         top: 30px;
         left: 40px;
 
-      }
     }
+}
