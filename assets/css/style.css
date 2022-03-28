@@ -18,7 +18,7 @@ h1,
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     color: #252525
 }
 
@@ -34,11 +34,12 @@ h2 {
 
 .menu {
     font-size: 300%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 
 }
 
 .menu li {
+
     list-style-type: none;
     text-align: right;
     margin: 0;
@@ -55,13 +56,9 @@ h2 {
     list-style-type: none;
     margin-right: 20px;
     text-transform: uppercase;
-}
-
-
-
-.menu li {
     display: inline-block;
 }
+
 
 .menu li a {
     font-size: 2vmin;
@@ -131,15 +128,17 @@ h2 {
     background: url('../images/background.webp')center center / cover no-repeat fixed;
     margin-top: 18px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 12px;
     color: #ffffff;
     text-decoration: underline;
+    padding-bottom: 12px;
+
 
 }
 
 .list {
     text-align: left;
-    padding-top: 50px;
+    padding-top: 10px;
     margin-left: 10px;
     list-style-type: none;
     line-height: 1.6;
@@ -171,6 +170,11 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .body {
+        width: 100%;
+
+    }
+
     .what {
 
         height: 18vw;
@@ -183,34 +187,51 @@ footer {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
     .logo {
         float: none;
     }
 
+    img {
+
+        width: 30vw;
+        height: auto;
+
+    }
 
     .menu li {
+
 
         padding-left: 0;
         margin: 0.5%;
 
     }
 
+    .menu li a {
+        font-size: 1.5vmin;
+    }
+
     .menu,
     .logo {
-        line-height: 30px;
+
+        line-height: 20px;
+        margin-bottom: 1px;
+        padding-bottom: 1px;
+
     }
 
     .cover-text {
         left: 5px;
         top: 10px;
+        font-size: medium;
+        height: 15vw;
     }
 
     .what,
     .list {
-
-        height: 20vw;
+        width: 100%;
+        height: auto;
         font-size: 1.5vmax;
         text-align: center;
     }
