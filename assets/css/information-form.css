@@ -65,7 +65,29 @@ th {
 
 }
 
+@media only screen and (max-width: 992px) {
 
 
+  .data-col {
 
+    text-align: inherit;
+    text-indent: 0em;
+  }
+}
 
+@media only screen and (max-width: 600px) {
+
+  .heading h2 {
+    font-size: 6vmin;
+  }
+
+  .heading p {
+    font-size: 4vmin;
+  }
+
+  .data-col {
+
+    text-align: inherit;
+    text-indent: 0em;
+  }
+}
