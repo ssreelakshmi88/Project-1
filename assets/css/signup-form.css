@@ -1,8 +1,6 @@
 body {
-    background-image: url('../images/water.webp');
-    background-size: cover;
-    background-position: center;
-    position: relative;
+
+    background-color: rgba(4, 71, 71, 0.671);
 }
 
 header {
@@ -81,54 +79,46 @@ legend {
     font-size: 100%;
     background-color: #786bf1;
     color: #fafafa;
-    display: block;
+
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
     .sign-up-form {
-        width: auto;
+        width: 30vw;
+        height: 70vw;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+
+        padding-bottom: 41px;
+    }
+
+    img {
+        width: 20vw;
         height: auto;
-        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-        background: white;
-        padding: 0px;
-        margin: auto;
-        margin-top: auto;
-        text-align: center;
-        border-radius: 2px;
+    }
+
+
+    .sign-up-form {
+        width: 100vw;
+        height: 125vw;
+        box-shadow: none;
+        background: none;
+
     }
 
     form input {
-        width: auto;
-        padding: 5px;
-        border: none;
-        border: 1px solid black;
+
+        width: 70%;
     }
 
-    .text-input {
-        display: block;
+    .join-button {
 
-        height: auto;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        border-width: 1px;
-        border-style: solid;
-        border-color: #021411;
-        border-radius: 2px;
+        width: 80%;
     }
 
-    .form-section {
 
-        margin-left: 60px;
-        float: none;
-        align-items: center;
-        align-content: center;
-        align-self: auto;
-
-    }
-
-    header {
-        background-color: white;
-        padding-bottom: 45px;
-    }
 }
