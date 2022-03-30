@@ -262,6 +262,8 @@ The code to make home page and footer were taken CI Love Running Project.
 
 
 **Content**
+
+
 The psychological properties of color were referred from http://www.colour-affects.co.uk/psychological-properties-of-colours.
 
 **Media**
