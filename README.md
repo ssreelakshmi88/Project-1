@@ -51,7 +51,19 @@ b. As a returning visitor, I would like to sign up for an activity.
 	### 	Wireframes![Wireframe 001](https://user-images.githubusercontent.com/97182442/160857191-3a72af23-4c1e-4bf7-8c77-8f7219f0d3bb.jpg)
 
 - Mobile Wireframe
+
+![Mobile Wireframe](https://user-images.githubusercontent.com/97182442/160903686-0c2a43e9-2f39-447d-97e0-774b00218e57.jpeg)
+
+
+
+
 - Contact Us Page Wireframe
+
+
+
+
+
+![Contact Wireframe](https://user-images.githubusercontent.com/97182442/160903820-faf81ee2-ad01-4bab-9237-056b1eec8a3c.jpeg)
 
 ### Features
 - Responsive on different devices.
