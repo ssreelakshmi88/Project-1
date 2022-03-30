@@ -1,89 +1,223 @@
+# Natare Club Website
+
 **Natare Club**
-Natare Club, is a web page for people who are interested in swimming and related activities. As the name suggests Natare (in latin "to swim"), offers a wide range of activities for kids and adults. The website is user friendly. Visitors can navigate to find information concerning the activities, tariffs, opening hours and sign up page.
+A one stop shop for swimming enthusiasts and people who would like to improve their health through a low impact sport activity. This is what we offer at Natare Club and this is the main webpage of the Natare Club. Natare, which literally in latin means “to swim”, offers a wide range of activities that is tailored for each individual depending on the age and fitness level. All these details and much more can be accessed via an intuitive and simple interface without any hassle. The website is built to ensure easy accessibility via various devices ranging from mobiles to laptops and desktops.
 
-![Screenshot_Home page](https://user-images.githubusercontent.com/97182442/158078689-41b3f3c1-84c0-4aaf-94fa-31a5ed613ff6.jpg)
 
-**User Goals**
-**First Time Visitor Goals:**
-- As first time users, they can easily understand the main purpose of the website and learn more about the different activities that we provide.
--Detailed description of all the swimming activities are also illustrated in the website with pictures. A first time user can easily navigate throughout the site to find the content.
-- As a first time users, they can easily locate the social media links and can check the reviews of other users.
-**Returning Visitor Goals:**
--The website provides the best way to get in contact with the club with any questions they have.
-- A returning visitor can sign in and register their details.
+
+![Responsive](https://user-images.githubusercontent.com/97182442/160856629-f03ed798-2d70-4579-974e-d9f342cce710.png)
+
+
+**User stories**
+
+**First time Visitor Goals:**
+   
+a. As a first time user, I want to understand the benefits of swimming.
+
+b. A first time user, I would like to know what activities are offered by the club and the associated costs.
+
+c. As a first time user, I would like to read user reviews/testimonials to better understand user experience.
+
+
+ **Returning Visitor Goals:**
+  
+a. As a returning visitor, I would like to find more information about a particular activity.
+
+b. As a returning visitor, I would like to sign up for an activity.
+
+
 **Frequent User Goals:**
-- As frequent users, they can always check if there are any newly added events or activities.
--The frequent user can check on into new blog posts.
+ 
+ a. As a frequent user, I would like to mix various activities offered by the club.
+ 
+ b. As a frequent user, I would like to know if new activities are offered by the club.
+ 
+ 
+ c. As a frequent user, I would like to share my experience. 
+ 
 
-**Design** 
-**Colour Scheme** o The main colours used in the website are shades of blue and white.
+###  Design
 
-• **Typography** o The Ostwald font is the main font used throughout the website with Sans Serif as the fallback font. Ostwald font is appropriate for designing this web page. 
+- **Color scheme**
+    - The main colours used in the website are shades of blue and white.
+-**Typography**
+    - The Ostwald font is the main font used throughout the website with Sans Serif as the fallback font. Ostwald font is appropriate for designing this web page.
+- **Imagery**
+    - A background image has been placed in the webpage to highlight the main activity of the club, swimming.
 
-**Imagery** A background image has been placed in the webpage to highlight the main activity of the club, swimming
-**Wireframes**
 
-![Wireframe 001](https://user-images.githubusercontent.com/97182442/158078719-4c9847b2-8f59-44a6-83c2-67737b168434.jpg)
+- Home Page Wireframe
 
+	### 	Wireframes![Wireframe 001](https://user-images.githubusercontent.com/97182442/160857191-3a72af23-4c1e-4bf7-8c77-8f7219f0d3bb.jpg)
 
-**Features**
-•	Responsive on different devices.
-•	Interactive elements for getting attention of users and making the website more attractive.
-**Technologies Used**
+- Mobile Wireframe
+- Contact Us Page Wireframe
+
+### Features
+- Responsive on different devices.
+- Interactive elements for getting attention of users and making the website more attractive.
+
+### Technologies Used
 **Languages Used**
-•	HTML5
-•	CSS3
-**Frameworks, Libraries & Programs Used**
-1.	Bootstrap 4.4.1:
-o	Bootstrap was used to assist with the responsiveness and styling of the website.
-2.	Hover.css:
+- HTML
+- CSS
+
+1. **Hover.css:**
 o	Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-3.	Google Fonts:
+2. **Google Fonts:**
 o	Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-4.	Font Awesome:
+3. **Font Awesome:**
 o	Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-5.	Git
+4. **Git**
 o	Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-6.	GitHub:
+5. **GitHub:**
 o	GitHub is used to store the projects code after being pushed from Git.
-7.	Photoshop:
-o	Photoshop was used to create the logo, resizing images and editing photos for the website.
 
-  **Testing User Stories from User Experience (UX) Section**
-  **First Visitor Goals
-- As first time users, they can easily understand the main purpose of the website and learn more about the different activities that we provide.
-1.	They would be able to easily navigate throughout the site to find the activities of their interests and all the relevant details.
-2.	The main concept about the site is articulated with the main image.
-3.	The site has been developed very fluid. Visitors can make use of the navigation panel at the top to visit the corresponding page.
-- Detailed description of all the swimming activities are also illustrated in the website.
-1.	Opening timings are mentioned correctly for weekdays and weekends. 
-2.	Pricing details of different activities are elaborated.
-3.	The club organizes different activities for all age groups.
-4.	Images are incorporated for making the visitors to have a vivid understanding.
-**Returning Visitor Goals**
-- The user has the ability to sign in and register their details with us.
-1.	The sign up section has a form to collect details from clients .
-2.	The page collects the clients name, email address, mobile number. 
-3.	After registering the user can join the club. 
-- The website provides the best way to get in contact with the club with any questions they have.
-9.	The contact page encourages the user to get in contact with the club.
-10.	The user can ask any questions or send feedback to the club.
-- User can find all the social media links to connect with us and follow us.
-11.	The footer contains social media direct links .
-12.	All the upcoming events are shared there.
-****
-**Frequent Visior Goals**
-As frequent users, they can check for any newly added events or activities.
-1. All events will be updated in social media.
-2. Social media links are available in the footer.
-**Further Testing**
+### Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- **W3C Markup Validator**
+   - **HTML**
+   No errors were found when passing through the official W3C Markup validator.
+   ![validator results](https://user-images.githubusercontent.com/97182442/160857939-0e002d68-69b9-4b57-9517-1170d218730a.png)
 
-The website was tested on Google Chrome.
-****
-**Deployment**
+- **W3C CSS Validator**
+   - **CSS**
+    No errors were found when passing through the official Jigsaw validator.
+    
+    
+    ![CSS validation result](https://user-images.githubusercontent.com/97182442/160858544-21eaef6b-e48f-4733-9aa2-888beb821b0a.png)
 
+    
+    
+- **Lighthouse testing**
+In lighthouse devtools, I checked that the colors and the fonts are contrasting and easy to read. It is accessible while running through the lighthouse devtool.
+
+
+
+![lighthouse result](https://user-images.githubusercontent.com/97182442/160860939-13276bcc-1df8-4406-b22d-c980db8b150b.png)
+
+
+  
+###   Testing User Stories from User Experience (UX) Section
+
+  **First Time Visitor Goals**
+  
+i. 	As a first time user, I want to understand benefits of swimming. 
+
+
+ a. Health benefits of swimming is indicated in the homepage.
+ 
+ b. Pictures used in the homepage highlights the main activity offered by the club.
+ 
+ ![home page](https://user-images.githubusercontent.com/97182442/160867204-eaf27146-d6e6-45f5-b1e9-e5b9dbf97672.png)
+
+ 
+ 
+ 
+ 
+ii. A first time user, I would like to know what activities are offered by the club and the associated costs.
+
+
+ a. There are various tabs within the navigation bar which are self-explanatory. The “Activities” tab is specifically tailored for first time users to browse through all activities offered at the club.
+ 
+ 
+ b. Picture associated with each activity enables the user to form a mental image to help them in decide the best activity for them.
+ 
+ 
+ c. The end goal, is to ensure that a first time visitor acquire sufficient information for deciding the best activity for them. To facilitate this, a section covering tariff information for each activity is provided.
+ 
+ 
+ 
+ ![activities page](https://user-images.githubusercontent.com/97182442/160868023-cbd73a32-cfd1-46d5-87b1-a66acfd58ce9.png)
+
+ 
+
+iii. As a first time user, I would like to read user reviews/testimonials to better understand user experience.
+
+ a. Links to social media where the user can read testimonials and reviews provided by our customers.
+ 
+ 
+ 
+ ![activities with footer page](https://user-images.githubusercontent.com/97182442/160868476-2d312d94-8b52-480b-bfc2-221f3ee383b5.png)
+
+ 
+  **Returning Visitor Goals**
+ 
+i. As a returning visitor, I would like to find more information about a particular activity. 
+
+
+ a. To address any questions that a returning visitor might have, an enquiry section has been created where the user can get in touch with us with their questions.
+ 
+ 
+ b. The user can use this section to ask questions or send feedback to the club.
+ 
+ 
+ 
+ ![contact page](https://user-images.githubusercontent.com/97182442/160869697-22b0206e-14ba-47f7-95c2-a6a122ca197a.png)
+
+ 
+ ii. As a returning visitor, I would like to sign up for an activity. 
+ 
+ 
+ a. A returning visitor can sign up by registering with their details via the signup page.
+ 
+ 
+ b. The sign up section has a form to collect sufficient details required to register them for an activity.
+ 
+ 
+ c. The page collects the clients name, email address.
+ 
+ 
+ 
+ d. After registration the user can join the club. 
+ 
+ ![signup page](https://user-images.githubusercontent.com/97182442/160869210-c67848fc-6926-4e5b-8ce8-263bfbb04809.png)
+
+ 
+ 
+ **Frequent Visitor Goals**
+
+i. As a frequent user, I would like to mix various activities offered by the club.
+
+
+ a. A section covering timing of all activities has been provided to enable users to register for more than one activity according to their convenience. 
+
+ b. Opening timings are mentioned correctly for weekdays and weekends.
+ 
+
+ii. As a frequent user, I would like to know if new activities are offered by the club.
+
+
+ a. A frequent user can check if there are new activities that can be accessed through the “activities” tab via navigation bar.
+ 
+
+iii. As a frequent user, I would like to share my experience.
+
+
+ a. Provision for accessing social media has been made available as footer on each page where the individual can share their experience.
+ 
+ 
+ 
+ 
+ ![information page](https://user-images.githubusercontent.com/97182442/160870253-e0e5f893-501e-4754-8a51-feb20b44ce44.png)
+
+ 
+ 
+### Further Testing
+1. The website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
+2. The website was checked on different standard devices such as desktop, laptop and iPhone using the devtools device toolbar.
+3. I have confirmed the working of form, requires entries in every field, will only accept an email in the email field, and also working of submit button.
+3. Friends were asked to review the site to overcome bugs and user experience issues.
+
+
+### Known Bugs
+
+1. In some mobile devices the navigation bar seems to be small. Also, the image pushes the footer towards other sides.
+
+### Deployment
 **GitHub Pages**
-The project was deployed to GitHub Pages using the following steps...
+
+ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
@@ -93,7 +227,9 @@ The project was deployed to GitHub Pages using the following steps...
 6. The page will automatically refresh.
 7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+
 **Forking the GitHub Repository**
+
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository
@@ -101,23 +237,47 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 3. You should now have a copy of the original repository in your GitHub account.
 
 **Making a Local Clone**
+
 1. Log in to GitHub and locate the GitHub Repository
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 3.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 7. Press Enter. Your local clone will be created.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> *Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.*
+
+### Credits
+
+**Code**
+
+The code to make home page and footer were taken CI Love Running Project.
+
 
 **Content**
-All content was written by the developer.
-
-Psychological properties of colours text in the README.md was found here
+The psychological properties of color were referred from http://www.colour-affects.co.uk/psychological-properties-of-colours.
 
 **Media**
-Images were taken from pexels.com
+ 
+All images were taken from pexels.com.
 
 **Acknowledgements**
-My Mentor for continuous helpful feedback.
 
-Tutor support at Code Institute for their support.
+- A continuous and supportive feedback from the mentor.
+- Tutor support at Code Institute.
+
+
+ 
+
+
+
+
+	
+
